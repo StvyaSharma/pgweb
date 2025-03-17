@@ -23,6 +23,7 @@ Very easy to use and packs just the right amount of features.
 - Zero dependencies.
 - Works with PostgreSQL 9.1+.
 - Supports native SSH tunnels.
+
 - Multiple database sessions.
 - Execute and analyze custom SQL queries.
 - Table and query data export to CSV/JSON/XML.
