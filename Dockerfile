@@ -50,4 +50,5 @@ RUN useradd --uid 1000 --no-create-home --shell /bin/false pgweb
 USER pgweb
 
 EXPOSE 8081
-ENTRYPOINT ["/usr/bin/pgweb", "--bind=0.0.0.0", "--listen=8081"]
+# Use CMD instead of ENTRYPOINT for more flexibility
+CMD ["/usr/bin/pgweb", "--bind=0.0.0.0", "--listen=8081"]
